@@ -1,5 +1,31 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-dnaeon-go-vcr (1.2.0-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Daniel Swarbrick ]
+  * New upstream release
+  * Update gbp.conf to current team workflow
+  * Bump debhelper-compat version to 13
+  * Bump Standards-Version to 4.6.1 (no changes)
+  * d/control: replace dh-golang with dh-sequence-golang
+  * d/control: change Section to golang
+  * d/control: add Rules-Requires-Root: no
+
+  [ Debian Janitor ]
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+
+ -- Daniel Swarbrick <dswarbrick@debian.org>  Mon, 24 Oct 2022 15:58:49 +0000
+
+golang-github-dnaeon-go-vcr (0.0~git20180814.aafff18-2) unstable; urgency=medium
+
+  * Add missing copyright information
+  * Install examples tests and fixtures
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Tue, 16 Oct 2018 12:22:44 +0200
+
+golang-github-dnaeon-go-vcr (0.0~git20180814.aafff18-1) unstable; urgency=medium
+
+  * Initial release (Closes: #908943)
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Sun, 16 Sep 2018 13:51:55 +0200
